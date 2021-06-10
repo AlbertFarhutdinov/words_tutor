@@ -1,2 +1,2 @@
-python main.py 5 vocabulary.csv
+python main.py run vocabulary.csv 5
 pause
