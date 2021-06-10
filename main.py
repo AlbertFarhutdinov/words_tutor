@@ -7,14 +7,15 @@ from typing import Dict, List, Optional, Union
 
 import pandas as pd
 
+import constants as con
+
 
 # TODO: add mode 'rus -> eng'
 # TODO: add processing of words in parenthesis, other forms etc.
 # TODO: add documentation and type hints.
 
 
-COMING_BACK_TIME = 90
-sys.tracebacklimit = 0
+# sys.tracebacklimit = 0
 
 
 def get_answer():
@@ -37,11 +38,11 @@ class WTItem:
         if vocabulary is None and index is None:
             vocabulary = [{}]
             index = 0
-        self.word = vocabulary[index].get('word')
-        self.pronunciation = vocabulary[index].get('pronunciation')
-        self.transcription = vocabulary[index].get('transcription')
-        self.success_number = vocabulary[index].get('successes')
-        self.learning_date = vocabulary[index].get('learning_date')
+        self.word = vocabulary[index].get(con.WORD)
+        self.transcription = vocabulary[index].get(con.TRANSCRIPTION)
+        self.translation = vocabulary[index].get(con.TRANSLATION)
+        self.success_number = vocabulary[index].get(con.SUCCESS_NUMBER)
+        self.learning_date = vocabulary[index].get(con.LEARNING_DATE)
 
     def __repr__(self):
         return ''.join([
@@ -53,7 +54,7 @@ class WTItem:
         ])
 
     def __str__(self):
-        return f'{self.word} [{self.pronunciation}] - {self.transcription}'
+        return f'{self.word} [{self.transcription}] - {self.translation}'
 
 
 class WordsTutor:
@@ -91,14 +92,14 @@ class WordsTutor:
                 vocabulary=self.vocabulary,
                 index=index,
             )
-            if item.learning_date:
+            if str(item.learning_date) not in ('', 'None', 'nan'):
                 learning_date = item.learning_date.split('-')
                 learning_date = date(
                     year=int(learning_date[0]),
                     month=int(learning_date[1]),
                     day=int(learning_date[2]),
                 )
-                if (date.today() - learning_date).days > COMING_BACK_TIME:
+                if (date.today() - learning_date).days > con.COMING_BACK_TIME:
                     print(
                         f'Word {item.word} is not repeated '
                         f'since {item.learning_date}. '
@@ -115,7 +116,8 @@ class WordsTutor:
 
     def print_result(self) -> None:
         points = (
-                self.vocabulary_frame['successes'] >= self.max_success_number
+                self.vocabulary_frame[con.SUCCESS_NUMBER]
+                >= self.max_success_number
         ).sum()
         print(f'Learned words: {points}/{self.vocabulary_size}')
 
@@ -141,8 +143,8 @@ class WordsTutor:
             self,
             item: WTItem,
     ) -> None:
-        self.vocabulary[item.index]['learning_date'] = item.learning_date
-        self.vocabulary[item.index]['successes'] = item.success_number
+        self.vocabulary[item.index][con.LEARNING_DATE] = item.learning_date
+        self.vocabulary[item.index][con.SUCCESS_NUMBER] = item.success_number
 
     def update_item_in_frame(
             self,
@@ -150,11 +152,11 @@ class WordsTutor:
     ) -> None:
         self.vocabulary_frame.loc[
             item.index,
-            'learning_date'
+            con.LEARNING_DATE
         ] = item.learning_date
         self.vocabulary_frame.loc[
             item.index,
-            'successes'
+            con.SUCCESS_NUMBER
         ] = item.success_number
 
     def help(self):
@@ -169,7 +171,7 @@ class WordsTutor:
                 index = randint(0, self.vocabulary_size - 1)
                 item = self.get_random_item(index=index)
                 if item.word:
-                    right_answers = item.transcription.split(',')
+                    right_answers = item.translation.split(',')
                     for i, right_answer in enumerate(right_answers):
                         right_answers[i] = process_answer(right_answer)
 
@@ -199,7 +201,7 @@ class WordsTutor:
                             break
 
                     if answer in right_answers:
-                        print(f'Right! Pronunciation: {item.pronunciation}')
+                        print(f'Right! Pronunciation: {item.transcription}')
                         is_last_wrong = False
                         item.success_number += 1
                         self.update_item_in_frame(item=item)
@@ -210,7 +212,7 @@ class WordsTutor:
                         is_last_wrong = True
                         print(
                             f'Wrong! Right answer: {right_answers}. '
-                            f'Pronunciation: {item.pronunciation}.'
+                            f'Pronunciation: {item.transcription}.'
                         )
                         item.success_number -= 1
                         if answer == '':
