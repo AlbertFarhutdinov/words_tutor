@@ -14,6 +14,7 @@ pylint_opts = [
     # '--disable=C0115',
     # '--disable=C0116',
     '__init__.py',
+    'constants.py',
     'pylint_inspection.py',
     'main.py',
 ]
