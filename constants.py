@@ -1,14 +1,14 @@
 # The time in days that must pass since the last repetition
-# of the learned word to return it to the list of unlearned words
+# of the learned word to return it to the list of unlearned words.
 COMING_BACK_TIME = 90
 
-# Vocabulary key for english words
+# Vocabulary key for english words.
 WORD = 'word'
-# Vocabulary key for transcriptions of english words
+# Vocabulary key for transcriptions of english words.
 TRANSCRIPTION = 'transcription'
-# Vocabulary key for russian translations of english words
+# Vocabulary key for russian translations of english words.
 TRANSLATION = 'translation'
-
+# Vocabulary key for numbers of successful repetition of english words.
 SUCCESS_NUMBER = 'success_number'
-
+# Vocabulary key for dates on which english words is considered as learned.
 LEARNING_DATE = 'learning_date'

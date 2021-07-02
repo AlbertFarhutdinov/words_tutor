@@ -18,11 +18,11 @@ import constants as con
 # sys.tracebacklimit = 0
 
 
-def get_answer():
+def get_answer() -> str:
     return input('Input translation: ')
 
 
-def process_answer(answer: str):
+def process_answer(answer: str) -> str:
     return answer.strip().lower().replace('ё', 'е')
 
 
@@ -44,7 +44,7 @@ class WTItem:
         self.success_number = vocabulary[index].get(con.SUCCESS_NUMBER)
         self.learning_date = vocabulary[index].get(con.LEARNING_DATE)
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return ''.join([
             f'{self.__class__.__name__}('
             f'vocabulary={self.vocabulary!r}',
@@ -53,7 +53,7 @@ class WTItem:
             ')'
         ])
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'{self.word} [{self.transcription}] - {self.translation}'
 
 
@@ -63,7 +63,7 @@ class WordsTutor:
             self,
             filename: str = '',
             max_success_number: Optional[int] = None,
-    ):
+    ) -> None:
         self.filename = filename
         self.vocabulary_frame = (
             pd.read_csv(filename, sep=';')
@@ -74,10 +74,10 @@ class WordsTutor:
         self.max_success_number = max_success_number
 
     @property
-    def vocabulary_size(self):
+    def vocabulary_size(self) -> int:
         return len(self.vocabulary)
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return ''.join([
             f'{self.__class__.__name__}('
             f'filename={self.filename!r}',
@@ -86,7 +86,7 @@ class WordsTutor:
             ')'
         ])
 
-    def get_random_item(self, index: int):
+    def get_random_item(self, index: int) -> WTItem:
         if self.vocabulary[index]:
             item = WTItem(
                 vocabulary=self.vocabulary,
@@ -159,7 +159,7 @@ class WordsTutor:
             con.SUCCESS_NUMBER
         ] = item.success_number
 
-    def help(self):
+    def help(self) -> None:
         pass
 
     def run(self) -> None:
@@ -229,7 +229,7 @@ class WordsTutor:
         self.save_vocabulary()
 
 
-def main():
+def main() -> None:
     try:
         command = sys.argv[1]
     except IndexError:
