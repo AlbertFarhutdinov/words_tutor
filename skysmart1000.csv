@@ -1,0 +1,905 @@
+word,transcription,translation
+person (pl. people),ˈpɜːsn,человек/персона
+man (pl. men),mæn,мужчина
+woman (pl. women),'wumən,женщина
+child (pl. children),ʧaɪld,ребенок
+boy,bɔɪ,мальчик
+girl,gɜːl,девочка
+baby,'beɪbɪ,малыш/младенец
+name,neɪm,имя/название
+surname (AmE: a last name),'sɜːneɪm,фамилия
+I,aɪ,я
+you,juː,ты/вы
+we,wiː,мы
+they,ðeɪ,они
+he,hiː,он
+she,ʃiː,она
+it,ɪt,оно (о неодушевленных предметах и животных)
+my/me,maɪ/miː,мой/мне
+your/you,jɔː/juː,твой/ваш/тебе/вам
+our/us,'auə/ʌs,наш/нам
+their/them,ðeə/ðem,их/им
+his/him,hɪz/hɪm,его/ему
+her,hɜː,ее/ей
+its/it,ɪts/ɪt,его/ее/ему/ей (о неодушевленном)
+parents,ˈpeərənts,родители
+father,ˈfɑːðə,отец
+dad,dæd,папа
+mother,ˈmʌðə,мать
+mom,mɒm,мама
+husband,ˈhʌzbənd,муж
+wife,waɪf,жена
+partner,ˈpɑːtnə,партнер
+son,sʌn,сын
+daughter,ˈdɔːtə,дочь
+brother,ˈbrʌðə,брат
+sister,ˈsɪstə,сестра
+cousin,ˈkʌz(ə)n,кузен/кузина
+stepsister,ˈstepsɪstə,сводная сестра
+stepbrother,ˈstepbrʌðə,сводный брат
+stepdaughter,ˈstepdɔːtə,падчерица
+stepson,ˈstepsʌn,пасынок
+stepmother,ˈstepmʌðə,мачеха
+stepfather,ˈstepfɑːðə,отчим
+father-in-law,ˈfɑːðə ɪn lɔː,свекор/тесть
+mother-in-law,ˈmʌðərɪnlɔː,свекровь/теща
+grandfather,ˈɡræn(d)fɑːðə,дедушка
+grandmother,ˈɡræn(d)mʌðə,бабушка
+uncle,ˈʌŋk(ə)l,дядя
+aunt,ɑːnt,тетя
+nephew,ˈnefjuː,племянник
+niece,niːs,племянница
+maiden name,ˈmeɪd(ə)n/neɪm,девичья фамилия
+single,ˈsɪŋɡ(ə)l,холостой/незамужняя
+married,ˈmærɪd,женатый/замужняя
+divorced,dɪˈvɔːst,разведенный/разведенная
+age,eɪdʒ,возраст
+old,əʊld,старый
+young,jʌŋ,молодой
+head,hed,голова
+face,feɪs,лицо
+leg,leɡ,нога
+heel,hiːl,пятка
+knee,niː,колено
+bone,bəʊn,кость
+buttocks,ˈbʌtəks,ягодицы
+cheek,tʃiːk,щека
+chest,tʃest,грудь
+chin,tʃɪn,подбородок
+ear,ɪə,ухо
+elbow,ˈelbəʊ,локоть
+eye,aɪ,глаз
+eyebrow,ˈaɪbraʊ,бровь
+finger,ˈfɪŋɡə,палец на руке
+foot (pl. feet),fʊt/fiːt,ступня
+forehead,ˈfɔːhed,лоб
+hair,heə,волосы
+hand,hænd,кисть руки
+heart,hɑːt,сердце
+leg,leɡ,нога
+lips,lɪps,губы
+mouth,maʊð,рот
+mustache,ˈmʌstæʃ,усы
+nail,neɪl,ноготь
+neck,nek,шея
+nose,nəʊz,нос
+organ,ˈɔːɡ(ə)n,орган
+shoulder,ˈʃəʊldə,плечо
+skin,skɪn,кожа
+spine,spaɪn,позвоночник
+stomach,ˈstʌmək,живот/желудок
+throat,θrəʊt,горло
+toe,təʊ,палец на ноге
+tongue,tʌŋ,язык
+tooth (pl. teeth),tuːθ/tiːθ,зуб
+blood,blʌd,кровь
+bruise,bruːz,синяк
+cough,kɒf,кашель
+dizziness,ˈdɪzɪnəs,головокружение
+allergy,ˈælədʒɪ,аллергия
+fever,ˈfiːvə,жар
+flu,fluː,грипп
+pain,peɪn,боль
+running nose,ˈrʌnɪŋ/nəʊz,насморк
+spot,spɒt,пятно/точка
+wound,wuːnd,рана
+sneeze,sniːz,чихать
+hurt,hɜːt,ранить/повреждать
+ache,eɪk,боль
+healthy,ˈhelθɪ,здоровый
+swollen,ˈswəʊlən,опухший
+sick,sɪk,больной
+indigestion,ɪndɪˈdʒestʃ(ə)n,несварение
+diarrhea,ˌdaɪəˈrɪə,диарея
+beautiful,ˈbjuːtɪfʊl,красивый
+ugly,ˈʌɡlɪ,уродливый
+tall,tɔːl,высокий
+short,ʃɔːt,низкий
+average,ˈæv(ə)rɪdʒ,средний
+fat,fæt,тучный
+fit,fɪt,соответствовать/подходить (о форме)
+skinny,ˈskɪnɪ,худой
+attractive,əˈtræktɪv,привлекательный
+freckled,ˈfrekəld,веснушчатый
+stooped,stuːpt,сутулый
+pale,peɪl,бледный
+tanned,tænd,загорелый
+graceful,ˈɡreɪsfʊl,грациозный
+sad,sæd,грустный
+happy,ˈhæpɪ,счастливый
+abusive,əˈbjuːsɪv,жестокий
+active,ˈæktɪv,активный
+ambitious,æmˈbɪʃəs,амбициозный
+anxious,ˈæŋ(k)ʃəs,тревожный
+brave,breɪv,смелый
+calm,kɑːm,спокойный
+confident,ˈkɒnfɪd(ə)nt,уверенный
+careful,ˈkeəfʊl,осторожный
+cruel,krʊəl,жестокий
+clever,ˈklevə,умный
+curious,ˈkjʊərɪəs,любопытный
+charming,ˈtʃɑːmɪŋ,очаровательный
+energetic,ˌenəˈdʒetɪk,энергичный
+easygoing,ˌiːzɪˈɡəʊɪŋ,с легким характером
+fair,feə,справедливый
+funny,ˈfʌnɪ,забавный
+friendly,ˈfren(d)lɪ,дружелюбный
+generous,ˈdʒen(ə)rəs,щедрый
+good,ɡʊd,хороший
+greedy,ˈɡriːdɪ,жадный
+happy,ˈhæpɪ,счастливый
+impatient,ɪmˈpeɪʃ(ə)nt,нетерпеливый
+hard-working,ˌhɑːdˈwɜːkɪŋ,трудолюбивый
+honest,ˈɒnɪst,честный
+kind,kaɪnd,добрый
+lazy,ˈleɪzɪ,ленивый
+lucky,ˈlʌkɪ,везучий
+nice,naɪs,милый
+polite,pəˈlaɪt,вежливый
+talented,ˈtæləntɪd,талантливый
+moody,ˈmuːdɪ,унылый
+boring,ˈbɔːrɪŋ,скучный
+busy,ˈbɪzɪ,занятой
+clumsy,ˈklʌmzɪ,неуклюжий
+angry,ˈæŋɡrɪ,сердитый
+annoying,əˈnɔɪɪŋ,раздражающий
+crazy,ˈkreɪzɪ,сумасшедший
+jealous,ˈdʒeləs,ревнивый
+lazy,ˈleɪzɪ,ленивый
+nervous,ˈnɜːvəs,нервный
+rude,ruːd,грубый
+fear,fɪə,страх
+fun,fʌn,веселье
+sadness,ˈsædnəs,печаль
+envy,ˈenvɪ,зависть
+passion,ˈpæʃ(ə)n,страсть
+delight,dɪˈlaɪt,удовольствие
+distress,dɪˈstres,страдание
+pleasure,ˈpleʒə,удовольствие
+grief,ɡriːf,скорбь
+pride,praɪd,гордость
+cry,kraɪ,плакать
+hope,həʊp,надеяться
+enjoy,ɪnˈdʒɔɪ,наслаждаться
+laugh,lɑːf,смеяться
+like,laɪk,нравиться
+love,lʌv,любить
+miss,mɪs,скучать
+need,niːd,нуждаться
+smile,smaɪl,улыбаться
+worry,ˈwʌrɪ,беспокоиться
+feel,fiːl,чувствовать
+hear,hɪə,слышать
+see,siː,видеть
+smell,smel,нюхать/иметь запах
+taste,teɪst,пробовать/иметь вкус
+accountant,əˈkaʊnt(ə)nt,бухгалтер
+actor/actress,ˈæktə/ˈæktrəs,актер/актриса
+attorney,əˈtɜːnɪ,адвокат
+artist,ˈɑːtɪst,художник
+bartender,ˈbɑːtendə,бармен
+butcher,ˈbʊtʃə,мясник
+businessman/businesswoman (pl. businessmen/businesswomen),ˈbɪznɪsmən/ˈbɪznəsmen,бизнесмен
+carpenter,ˈkɑːp(ə)ntə,плотник
+chief,tʃiːf,руководитель/глава
+client,ˈklaɪənt,клиент
+coach,kəʊtʃ,тренер
+colleague (AmE: a co-worker),ˈkɒliːɡ/kəʊˈwɜːkə,коллега/сотрудник
+doctor,ˈdɒktə,врач
+driver,ˈdraɪvə,водитель
+designer,dɪˈzaɪnə,дизайнер
+engineer,endʒɪˈnɪə,инженер
+editor,ˈedɪtə,редактор
+electrician,ˌɪlekˈtrɪʃ(ə)n,электрик
+flight attendant,flaɪt/əˈtend(ə)nt,бoртпроводник
+journalist,ˈdʒɜːn(ə)lɪst,журналист
+lawyer,ˈlɔːjə,юрист
+lifeguard,ˈlaɪfɡɑːd,пляжный спасатель
+mechanic,mɪˈkænɪk,механик
+musician,mjuːˈzɪʃ(ə)n,музыкант
+nanny,ˈnænɪ,няня
+nutritionist,njʊˈtrɪʃ(ə)nɪst,нутрициолог/диетолог
+nurse,nɜːs,медсестра
+pilot,ˈpaɪlət,пилoт
+plumber,ˈplʌmə,сантехник
+pharmacist,ˈfɑːməsɪst,аптекарь/провизор
+politician,pɒlɪˈtɪʃ(ə)n,пoлитик
+programmer,ˈprəʊɡræmə,программист
+physician,fɪˈzɪʃ(ə)n,врач-терапевт
+policeman (pl. policemen),pəˈliːsmən/pəˈliːsmən,полицейский
+singer,ˈsɪŋə,певец/певица
+salesperson,ˈseɪlzpɜːs(ə)n,прoдавец
+surgeon,ˈsɜːdʒ(ə)n,хирург
+teacher,ˈtiːtʃə,учитель
+waiter/waitress,ˈweɪtə/ˈweɪtrəs,официант/официантка
+worker,ˈwɜːkə,рабoчий
+writer,ˈraɪtə,писатель
+suit,suːt,кoстюм
+dress,dres,платье
+shirt,ʃɜːt,рубашка
+jacket,ˈdʒækɪt,пиджак/куртка
+boots,buːts,бoтинки
+skirt,skɜːt,юбка
+coat,ˈkəʊt,пальтo
+stockings,ˈstɒkɪŋz,чулки
+socks,ˈsɒks,нoски
+tights,taɪts,колготки
+gloves,ɡlʌvz,перчатки
+hat,hæt,шляпа
+pyjamas,pəˈdʒɑːməz,пижама
+scarf,skɑːf,шарф
+shoes,ʃuːz,обувь
+shorts,ʃɔːts,шорты
+sweater,ˈswetə,свитер
+tie,taɪ,галстук
+trousers,ˈtraʊzəz,брюки
+T-shirt/a tee,ˈtiːʃɜːt/tiː,футболка
+underwear,ˈʌndəweə,нижнее белье
+bracelet,ˈbreɪslɪt,браслет
+earrings,ˈɪərɪŋz,серьги
+glasses,ˈɡlɑːsɪz,очки
+necklace,ˈneklɪs,ожерелье
+purse,pɜːs,дамская сумка
+wallet,ˈwɒlɪt,бумажник
+elegant,ˈelɪɡ(ə)nt,элегантный
+dress,dres,одевать(ся)
+suit,suːt,идти/хорошо смотреться
+fit,fɪt,подходить по размеру/хорошо сидеть
+red,red,красный
+orange,ˈɒrɪn(d)ʒ,оранжевый
+yellow,ˈjeləʊ,желтый
+green,ɡriːn,зеленый
+blue,bluː,синий
+purplе,ˈpɜːp(ə)l,фиoлетовый
+pink,pɪŋk,розoвый
+brown,braʊn,коричневый
+black,blæk,черный
+grеy,ɡreɪ,сeрый
+white,waɪt,бeлый
+bright,braɪt,яркий
+colourful,ˈkʌləfʊl,цветнoй
+dark,dɑːk,темный
+light,laɪt,свeтлый
+dull,dʌl,тусклый
+awful,ˈɔːfʊl,ужасный
+fine,faɪn,превосходный/утонченный
+poor,pɔː(r),бедный/слабый
+rich,rɪtʃ,богатый/насыщенный
+easy,ˈiːzɪ,простой
+difficult,ˈdɪfɪk(ə)lt,трудный/тяжелый
+dear,dɪə,дорогой
+dangerous,ˈdeɪn(d)ʒ(ə)rəs,опасный
+safe,seɪf,безопасный
+different,ˈdɪf(ə)r(ə)nt,другой/разный
+same,seɪm,тот же/такой же
+similar,ˈsɪmɪlə,похожий/идентичный
+modern,ˈmɒd(ə)n,современный
+ancient,ˈeɪnʃ(ə)nt,древний
+boring,ˈbɔːrɪŋ,скучный
+interesting,ˈɪnt(ə)rɪstɪŋ,интересный
+real,rɪəl,настоящий
+fake,feɪk,поддельный
+good,ɡʊd,хороший
+bad,bæd,плохой
+basic,ˈbeɪsɪk,основной/базовый
+big,bɪɡ,большой
+small,smɔːl,маленький
+clean,kliːn,чистый
+dirty,ˈdɜːrtɪ,грязный
+empty,ˈemptɪ,пустой
+full,fʊl,полный
+fast,fæst,быстрый
+slow,sləʊ,медленный
+new,nuː,новый
+old,əʊld,старый
+comfortable,ˈkʌmftəbl,удобный
+round,raʊnd,круглый
+square,skwer,квадратный
+triangular,traɪˈæŋɡjələr,треугольный
+straight,streɪt,прямой/ровный
+flat,flæt,плоский
+former,ˈfɔːrmər,бывший
+current,ˈkɜːrənt,нынешний/текущий
+free,friː,свободный/бесплатный
+fresh,freʃ,свежий
+rotten,ˈrɑːtn,гнилой/испорченный
+heavy,ˈhevɪ,тяжелый
+important,ɪmˈpɔːrtnt,важный
+legal,ˈliːɡl,законный
+illegal,ɪˈliːɡl,незаконный
+lonely,ˈləʊnlɪ,одинокий
+long,lɔːŋ,длинный
+short,ʃɔːrt,короткий
+obvious,ˈɑːbvɪəs,очевидный
+hidden,ˈhɪdn,скрытый
+possible,ˈpɑːsəbl,возможный
+impossible,ɪmˈpɑːsəbl,невозможный
+rare,rer,редкий
+common,ˈkɑːmən,обычный
+strange,streɪndʒ,странный
+low,ləʊ,низкий
+high,haɪ,высокий
+narrow,ˈnærəʊ,узкий
+wide,waɪd,широкий
+noisy,ˈnɔɪzɪ,шумный
+quiet,ˈkwaɪət,тихий
+lot of,ə lɔt ɔv,много
+many,ˈmenɪ,много(исчисляемые существительные)
+much,mʌtʃ,много (неисчисляемые существительные)
+few/a few/a little,fjuː,мало (с исчисляемыми существительными)
+little,ˈlɪtl,мало (с неисчисляемыми существительными)
+less,les,меньше
+more,mɔːr,больше
+some,sʌm,несколько/некоторое количество
+any,ˈenɪ,несколько/некоторое количество
+pair,peə,пара
+part,pɑːrt,часть
+piece,piːs,кусок/часть
+bit,bɪt,немного/чуть-чуть
+too much,tuː mʌtʃ,слишком много
+enough,ɪˈnʌf,достаточно
+none,nʌn,нисколько
+all,ɔːl,все
+zero,ˈzɪrəʊ,ноль
+one,wʌn,один
+two,tuː,два
+three,θriː,три
+four,fɔːr,четыре
+five,faɪv,пять
+six,sɪks,шесть
+seven,ˈsevn,семь
+eight,eɪt,восемь
+nine,naɪn,девять
+ten,ten,десять
+eleven,ɪˈlevn,одиннадцать
+twelve,twelv,двенадцать
+thirteen,θɜːrˈtiːn,тринадцать
+fourteen,fɔːrˈtiːn,четырнадцать
+fifteen,fɪfˈtiːn,пятнадцать
+sixteen,sɪksˈtiːn,шестнадцать
+seventeen,sev(ə)nˈtiːn,семнадцать
+eighteen,eɪˈtiːn,восемнадцать
+nineteen,naɪnˈtiːn,девятнадцать
+twenty,ˈtwentɪ,двадцать
+thirty,ˈθɜːtɪ,тридцать
+forty,ˈfɔːtɪ,сорок
+fifty,ˈfɪftɪ,пятьдесят
+sixty,ˈsɪkstɪ,шестьдесят
+seventy,ˈsev(ə)ntɪ,семьдесят
+eighty,ˈeɪtɪ,восемьдесят
+ninety,ˈnaɪntɪ,девяносто
+hundred,ˈhʌndrəd,сто
+thousand,ˈθaʊznd,тысяча
+million,ˈmɪljən,миллион
+(the) first,fɜːrst,первый
+(the) second,ˈsekənd,второй
+(the) third,θɜːrd,третий
+(the) fourth,fɔːrθ,четвертый
+(the) fifth,fɪfθ,пятый
+season,ˈsiːzn,сезон/время года
+winter,ˈwɪntər,зима
+spring,ˈsprɪŋ,весна
+summer,ˈsʌmər,лето
+autumn (AmE: fall),ˈɔːtəm/fɔːl,осень
+month,mʌnθ,месяц
+January,ˈdʒænjʊerɪ,январь
+February,ˈfebrʊerɪ,февраль
+March,mɑːrtʃ,март
+April,ˈeɪprəl,апрель
+May,meɪ,май
+June,dʒuːn,июнь
+July,dʒʊˈlaɪ,июль
+August,ˈɔːɡəst,август
+September,sepˈtembər,сентябрь
+October,ɑːkˈtəʊbər,октябрь
+November,nəʊˈvembər,ноябрь
+December,dɪˈsembər,декабрь
+day,deɪ,день
+Monday,ˈmʌndeɪ,понедельник
+Tuesday,ˈtuːzdeɪ,вторник
+Wednesday,ˈwenzdeɪ,среда
+Thursday,ˈθɜːrzdeɪ,четверг
+Friday,ˈfraɪdeɪ,пятница
+Saturday,ˈsætərdeɪ,суббота
+Sunday,ˈsʌndeɪ,воскресенье
+yesterday,ˈjestərdeɪ,вчера
+today,təˈdeɪ,сегодня
+tomorrow,təˈmɔːrəʊ,завтра
+now,naʊ,сейчас/теперь
+later,ˈleɪtər,позже
+morning,ˈmɔːrnɪŋ,утро
+afternoon,æftərˈnuːn,день (после полудня)
+evening,ˈiːvnɪŋ,вечер
+night,naɪt,ночь
+midnight,ˈmɪdnaɪt,полночь
+tonight,təˈnaɪt,сегодня вечером
+second,ˈsekənd,секунда
+minute,ˈmɪnɪt,минута
+hour,ən ˈaʊər,час
+week,wiːk,неделя
+year,jɪr,год
+century,ˈsentʃərɪ,век
+ago,ˈɡəʊ,назад
+early,ˈɜːrlɪ,ранний/рано
+last,læst,прошлый
+late,leɪt,поздний
+next,nekst,следующий
+after,ˈæftər,после
+before,bɪˈfɔːr,до
+during,ˈdʊrɪŋ,во время
+for,fɔːr,в течение определенного времени
+since,sɪns,с какого-то момента
+then,ðen,затем/тогда
+always,ˈɔːlweɪz,всегда
+never,ˈnevər,никогда
+often,ˈɔːfn,часто
+sometimes,ˈsʌmtaɪmz,иногда
+soon,suːn,скоро
+usually,ˈjuːʒʊəlɪ,обычно
+already,ɔːlˈredɪ,уже
+just,dʒʌst,только что
+yet,jet,пока не
+probably,ˈprɑːbəblɪ,вероятно
+school,ə skuːl,школа
+college,ə ˈkɑːlɪdʒ,колледж/университет
+study,tuː ˈstʌdɪ,учиться/изучать
+teach,tuː tiːtʃ,учить
+know,tuː nəʊ,знать
+notebook,ə ˈnəʊtbʊk,тетрадь
+dictionary,ə ˈdɪkʃənerɪ,словарь
+exercise,ən ˈeksərsaɪz,упражнение
+science,ˈsaɪəns,наука
+lecture,ˈlektʃər,лекция
+lesson,ə ˈlesn,урок
+student,ə ˈstuːdnt,студент/ученик
+graduate,ˈɡrædʒʊət,выпускник
+letter,ə ˈletər,буква
+mistake,ə mɪˈsteɪk,ошибка
+note,ə nəʊt,записка/запись
+page,ə peɪdʒ,страница
+paper,ˈpeɪpər,бумага
+pen,ə pen,ручка
+pencil,ə ˈpensl,карандаш
+test,ə test,тест
+exam,ən ɪɡˈzæm,экзамен
+enroll,tuː ɪnˈrəʊl,зачислять
+art,ɑːrt,искусство
+craft,kræft,прикладное искусство/ремесло
+film (AmE: a movie),ə fɪlm/ˈmuːvɪ,фильм
+read (read – read),tuː riːd,читать
+literature,ˈlɪtrətʃər,литература
+book,bʊk,книга
+novel,ˈnɑːvl,роман
+story,ə ˈstɔːrɪ,история/рассказ
+graphic novel,ˈɡræfɪk ˈnɑːvl,графический роман/комикс
+music,ˈmjuːzɪk,музыка
+listen,tuː ˈlɪsn,слушать
+dance,tuː dɑːns,танцевать
+song,ɑ sɒŋ,песня
+sing (sang-sung),tuː sɪŋ (sæŋ-sʌn,петь
+collect,tuː kəˈlekt,собирать/коллекционировать
+theatre,ˈθɪətə,театр
+act,tuː ækt,играть (на сцене)
+play,pleɪ,спектакль
+draw (drew – drawn),tuː drɔː (druː – drɔːn,рисовать
+paint, tuː peɪnt,рисовать красками
+take pictures,tuː teɪk ˈpɪkʧəːz,фотографировать
+blogging,ˈblɒgɪŋ,ведение блога
+make (made – made),tuː meɪk (meɪd – meɪd,делать/изготавливать
+knitting,ˈnɪtɪŋ ,вязание
+sewing,ˈsəʊɪŋ,шитье
+embroidery,ɪmˈbrɔɪdərɪ,вышивка
+martial аrts,ˈmɑːʃəl а rts,боевые искусства
+fitness,ˈfɪtnɪs,фитнесс
+cook,tuː kʊk,готовить еду
+play,tuː pleɪ,играть
+board games,bɔːd geɪmz,настольные игры
+gardening,ˈgɑːdnɪŋ,садоводство
+travel,tuː trævl,путешествовать
+destination,ɑ destɪˈneɪʃn,пункт назначения
+book,tuː bʊk,забронировать
+ticket,ɑ ˈtɪkɪt,билет
+hotel,ɑ həʊˈtel,отель
+passport,ɑ ˈpɑːspɔːt,паспорт
+boarding pass,ˈbɔːdɪŋ pɑːs,посадочный талон
+departure,dɪˈpɑːʧə,отбытие
+arrival,əˈraɪvəl,прибытие
+journey,ɑ ˈʤɜːnɪ ,путешествие
+boarding,ˈbɔːdɪŋ,посадка
+customs,ˈkʌstəmz,таможня
+seat,siːt ,место/сиденье/кресло
+aisle,aɪl,проход между рядами в самолете
+platform,ˈplætfɔːm,платформа
+carriage,ˈkærɪʤ,вагон
+miss,tuː mɪs,пропустить/опоздать
+travel agency,trævl ˈeɪʤənsɪ,туристическое агентство
+train,treɪn,поезд
+plane,pleɪn,самолет
+meal,ɑ miːl,прием пищи/еда
+restaurant,restaurant,ресторан
+menu,ˈmenjuː,меню
+delivery,dɪˈlɪvərɪ,доставка
+baked,beɪkt,запеченный
+boiled,bɔɪld,вареный
+fried,fraɪd,жареный в масле
+roasted,ˈrəʊstɪd,жареный на углях
+ready,ˈredɪ,готовый
+undercooked,undercooked,полусырой
+delicious,dɪˈlɪʃəs,очень вкусный
+bitter,ˈbɪtə,горький
+salty,ˈsɔːltɪ,соленый
+sour,ˈsaʊə,кислый
+spicy,ˈspaɪsɪ,острый
+sweet,swiːt,сладкий
+tasty,ˈteɪstɪ,вкусный
+breakfast,ˈbrekfəst,завтрак
+lunch,lʌnʧ,обед
+dinner,ˈdɪnə,ужин
+snack,snæk,перекус
+dessert,dɪˈzɜːt,десерт
+biscuit (AmE: cookie),ˈbɪskɪt (eɪm: ˈkʊkɪ),печенье
+bun,ɑ bʌn,булочка
+cake,ɑ keɪk,торт
+chocolate,ˈʧɒklɪt,шоколад
+honey,ˈhʌnɪ,мед
+ice cream,aɪsˈkriːm,мороженое
+jam,ʤæm,варенье
+pie,ɑ paɪ,пирог
+bread,bred,хлеб
+egg,æn eg,яйцо
+flour,ˈflaʊə,мука
+nut,ɑ nʌt,орех
+oatmeal,ˈəʊtmiːl,овсянка
+peach,ɑ piːʧ,персик
+pear,ɑ peə,груша
+pineapple,ɑ ˈpaɪnæpl,ананас
+plum,ɑ plʌm,слива
+pumpkin,ɑ ˈpʌmpkɪn,тыква
+tomato,ɑ təˈmɑːtəʊ,помидор
+watermelon,ɑ ˈwɔːtəmelən,арбуз
+beans,beans,фасоль
+beetroot,ɑ ˈbiːtruːt,свекла
+bell pepper,ɑ bel ˈpepə,болгарский перец
+cabbage,ɑ ˈkæbɪʤ,капуста
+carrot,ɑ ˈkærət,морковь
+corn,kɔːn,кукуруза
+garlic,ˈgɑːlɪk,чеснок
+onion,æn ˈʌnjən,лук
+mushroom,ɑ ˈmʌʃrum,гриб
+potato,pəˈteɪtəʊ,картофель
+dairy,ˈdeərɪ,молочные продукты
+butter,ˈbʌtə,масло
+cheese,ʧiːz,сыр
+cream,kriːm,крем/сливки
+milk,mɪlk,молоко
+yogurt,ˈjɒgət,йогурт
+oil,ɔɪl,растительное масло
+pepper,ˈpepə,перец
+rice,raɪs,рис
+salt,sɔːlt,соль
+sauce,sɔːs,соус
+spices,spaɪs,специи
+sugar,ˈʃʊgə,сахар
+drink,drɪŋk,напиток
+coffee,ˈkɒfɪ,кофе
+juice,ʤuːs,сок
+soda,ˈsəʊdə,газировка
+tea,tiː,чай
+water,ˈwɔːtə,вода
+cow,kaʊ,корова
+horse,hɔːs,лошадь
+dog,dɒg,собака
+cat,kæt,кот/кошка
+pig,pɪg,свинья
+rabbit,ˈræbɪt,кролик
+lion,ˈlaɪən,лев
+bear,beə,медведь
+monkey,ˈmʌŋkɪ,обезьяна
+mouse (pl. mice),maʊs,мышь
+wolf,wʊlf,волк
+frog,frɒɡ,лягушка
+ant,ænt,муравей
+bee,biː,пчела
+cockroach,ˈkɒkrəʊtʃ,таракан
+bird,bɜːd,птица
+rat,ræt,крыса
+snake,sneɪk,змея
+spider,ˈspaɪdə,паук
+squirrel,ˈskwɪr(ə)l,белка
+plant,plɑːnt,растение
+tree,triː,дерево
+bush,bʊʃ,куст
+flower,ˈflaʊə,цветок
+grass,ɡrɑːs,трава
+root,ruːt,корень
+branch,brɑːn(t)ʃ,ветка
+leaf,liːf,лист
+pine,paɪn,сосна
+oak,əʊk,дуб
+birch,bɜːtʃ,береза
+rose,rəʊz,роза
+daisy,ˈdeɪzɪ,маргаритка
+lily,ˈlɪlɪ,лилия
+beach,biːtʃ,пляж
+coast,kəʊst,морское побережье
+field,fiːld,поле
+forest,ˈfɒrɪst,лес
+hill,hɪl,холм
+mountain,ˈmaʊntɪn,гора
+volcano,vɒlˈkeɪnəʊ,вулкан
+valley,ˈvælɪ,долина
+plateau,ˈplætəʊ,плато
+island,ˈaɪlənd,остров
+lake,leɪk,озеро
+the ocean,ˈəʊʃ(ə)n,океан
+river,ˈrɪvə,река
+the sea,siː,море
+stone,stəʊn,камень
+sand,sænd,песок
+cold,kəʊld,холодный
+chilly,ˈtʃɪlɪ,прохладно
+warm,wɔːm,теплый
+hot,hɒt,жаркий
+cool,kuːl,прохладный
+sun,sʌn,солнце
+sunny,ˈsʌnɪ,солнечный
+rain,reɪn,дождь
+rainy,ˈreɪnɪ,дождливый
+fog,fɒɡ,туман
+foggy,ˈfɒɡɪ,туманный
+wind,wɪnd,ветер
+windy,ˈwɪndɪ,ветрено
+snow,snəʊ,снег
+snowy,ˈsnəʊɪ,снежный
+blizzard,ˈblɪzəd,метель
+thunderstorm,ˈθʌndəstɔːm,гроза
+lightning,ˈlaɪtnɪŋ,молния
+hail,heɪl,град
+humid,ˈhjuːmɪd,влажный
+drizzle,ˈdrɪz(ə)l,морось
+clear,klɪə,ясно
+above/below zero,əˈbʌv/bɪˈləʊ/ˈzɪərəʊ,выше/ниже нуля
+pollution,pəˈluːʃ(ə)n,загрязнение
+temperature,ˈtemp(ə)rətʃə,температура
+climate,ˈklaɪmət,климат
+global warming,ˈɡləʊb(ə)l/ˈwɔːmɪŋ,глобальное потепление
+birthday,ˈbɜːθdeɪ,день рождения
+New Year’s Eve,njuː,канун Нового года
+Christmas,ˈkrɪsməs,Рождество
+Easter,ˈiːstə,Пасха
+Independence Day,ɪndɪˈpend(ə)ns/deɪ,День Независимости
+Victory Day,ˈvɪkt(ə)rɪ/deɪ,День победы
+wedding,ˈwedɪŋ,свадьба
+holiday (AmE: a vacation),ˈhɒlɪdeɪ/vəˈkeɪʃ(ə)n,каникулы/отпуск
+day off,deɪ/ɒf,выходной
+party,ˈpɑːtɪ,вечеринка
+picnic,ˈpɪknɪk,пикник
+festival,ˈfestɪv(ə)l,праздник
+have fun,həv/fʌn,веселиться
+invite,ˈɪnvaɪt,приглашать
+guest,ɡest,гость
+invitation,ɪnvɪˈteɪʃ(ə)n,приглашение
+present,ˈprez(ə)nt,подарок
+city,ˈsɪtɪ,город
+town,taʊn,небольшой город/городок
+village,ˈvɪlɪdʒ,деревня
+centre (AmE: a center),ˈsentə/ˈsentər,центр (города)
+outskirts,ˈaʊtskɜːts,окраина
+airport,ˈeəpɔːt,аэропорт
+train station,treɪn/ˈsteɪʃ(ə)n,ЖД вокзал
+factory,ˈfækt(ə)rɪ,фабрика/завод
+power plant,ˈpaʊə/plɑːnt,электростанция
+bank,bæŋk,банк
+church,tʃɜːtʃ,церковь
+cinema,ˈsɪnɪmə,кинотеатр
+market,ˈmɑːkɪt,рынок
+café,ˈkæfeɪ,кафе
+restaurant,ˈrest(ə)rɒnt,ресторан
+hospital,ˈhɒspɪt(ə)l,больница
+hotel,həʊˈtel,гостиница
+market,ˈmɑːkɪt,рынок
+pavement (AmE: a sidewalk),ˈpeɪvm(ə)nt/ˈsaɪdwɔːk,тротуар
+pharmacy (AmE: a drug store),ˈfɑːməsɪ/ˈdrʌɡ/stɔː,аптека
+police,pəˈliːs,полиция
+post office,pəʊst/ˈɒfɪs,почта
+road,rəʊd,дорога
+street,striːt,улица
+square,skweə,площадь
+intersection,ɪntəˈsekʃ(ə)n,перекресток
+turn,tɜːn,поворот
+traffic light,ˈtræfɪk/laɪt,светофор
+building,ˈbɪldɪŋ,здание
+park,pɑːk,парк
+shop (AmE: a store),ʃɒp/stɔː,магазин
+theatre (AmE: a theater),ˈθɪətə/ˈθɪətər,театр
+university,juːnɪˈvɜːsɪtɪ,университет
+school,skuːl,школа
+entrance,ˈentr(ə)ns,вход
+exit,ˈeksɪt,выход
+comfortable,ˈkʌmf(ə)təb(ə)l,удобный
+crowded,ˈkraʊdɪd,многолюдный
+quiet,ˈkwaɪət,тихий/спокойный
+dirty,ˈdɜːtɪ,грязный
+clean,kliːn,чистый
+main,meɪn,главный
+flat (AmE: an apartment),flæt,квартира
+house,haʊz,дом
+room,ruːm,комната
+wall,wɔːl,стена
+window,ˈwɪndəʊ,окно
+door,flɔː,дверь
+floor,flɔː,пол/этаж
+roof,ruːf,крыша
+ceiling,ˈsiːlɪŋ,потолок
+bathroom,ˈbɑːθruːm,ванная
+shower,ˈʃaʊə,душ
+sink,sɪŋk,раковина
+toilet,ˈtɔɪlɪt,туалет
+kitchen,ˈkɪtʃɪn,кухня
+living room,ˈlɪvɪŋ/ruːm,гостиная/зал
+hall,hɔːl,коридор
+furniture,ˈfɜːnɪtʃə,мебель
+armchair,ˈɑːmtʃeə,кресло
+bed,bed,кровать
+chair,tʃeə,стул
+shelf,ʃelf,полка
+sofa,ˈsəʊfə,диван
+pillow,ˈpɪləʊ,подушка
+table,ˈteɪb(ə)l,стол
+wardrobe (AmE: a closet),ˈwɔːdrəʊb,шкаф
+curtain,ˈkɜːt(ə)n,штора
+carpet,ˈkɑːpɪt,ковер
+mirror,ˈmɪrə,зеркало
+socket,ˈsɒkɪt,розетка
+oven,ˈʌvən,печь/духовка
+stove,stəʊv,плита
+fridge,frɪdʒ,холодильник
+TV,ˌtiː ˈviː,телевизор
+wire,ˈwaɪə,провод
+plate,pleɪt,тарелка
+fork,fɔːk,вилка
+knife,naɪf,нож
+spoon,spuːn,ложка
+jug,dʒʌɡ,кувшин
+kettle,ˈket(ə)l,чайник
+tray,treɪ,поднос
+bowl,bəʊl,миска
+frying pan,ˈfraɪɪŋ/pæn,сковородка
+pan,pæn,кастрюля
+lid,lɪd,крышка
+napkin,ˈnæpkɪn,салфетка
+add,æd,добавлять
+arrive,əˈraɪv,прибывать
+be (was/were – been),bɪ/wəz/wə(r)/biːn,быть
+become (became – become),bɪˈkʌm/bɪˈkeɪm,становиться
+begin (began – begun),bɪˈɡɪn/bɪˈɡæn/bɪˈɡʌn,начинать
+break (broke – broken),breɪk/brəʊk/ˈbrəʊk(ə)n,ломать
+buy (bought – bought),baɪ/bɔːt,покупать
+change,tʃeɪn(d)ʒ,менять
+check,tʃek,проверять
+choose (chose – chosen),tʃəʊz/tʃəʊz/ˈtʃəʊzn,выбирать
+close,kləʊz,закрывать
+continue,kənˈtɪnjuː,продолжать
+control,kənˈtrəʊl,контролировать
+cook,kʊk,готовить
+cost (cost – cost),kɒst,стоить
+cut (cut – cut),kʌt,резать
+drink (drank – drunk),drɪŋk/dræŋk/drʌŋk,пить
+eat (ate – eaten),iːt/et/ˈiːtən,есть
+feed (fed – fed),fiːd/fed,кормить
+find (found – found),faɪnd/faʊnd,находить
+get (got – got),ɡet/ˈɡɒt,получать
+give (gave – given),ɡɪv/ɡeɪv/ˈɡɪv(ə)n,давать
+have (had – had),həv/həd,иметь
+hold (held – held),həʊld/held,держать
+keep (kept – kept),kiːp/kept,хранить/продолжать
+kill,kɪl,убивать
+live,lɪv,жить
+look,lʊk,выглядеть/смотреть
+open,ˈəʊpən,открывать
+order,ˈɔːdə,заказывать
+pay,peɪ,платить
+plan,plæn,планировать
+put on,pʊt/ɒn,надевать
+rest,rest,отдыхать
+ring (rang – rung),rɪŋ/ræŋ/rʌŋ,звонить
+risk,rɪsk,рисковать
+save,seɪv,спасать/сохранять
+sell (sold – sold),sel/səʊld,продавать
+send (sent – sent),send/sent,отправлять
+share,ʃeə,делиться
+speak (spoke – spoken),spiːk/spəʊk/ˈspəʊk(ə)n,разговаривать
+sign,saɪn,подписывать
+sit (sat – sat),sɪt/sæt/sæt,сидеть
+sleep (slept – slept),sliːp/slept,спать
+smoke,sməʊk,курить
+spend (spent – spent),spend/spent,проводить/тратить
+try,traɪ,пытаться
+think (thought – thought),θɪŋk/θɔːt/θɔːt,думать/считать
+tell (told – told),tel/təʊld/təʊld,рассказывать
+talk,tɔːk,разговаривать
+use,juːz,использовать
+visit,ˈvɪzɪt,посещать
+wait,weɪt,ждать
+wake up (woke – woken),weɪk/ʌp/wəʊk/ˈwəʊkən,просыпаться
+wash,wɒʃ,мыть/стирать
+watch,wɒtʃ,смотреть/наблюдать
+wear (wore – worn),weə/wɔː/wɔːn,носить (одежду)
+work,wɜːk,работать
+can,kən,уметь/иметь возможность сделать что-то
+have to,həv/tə,быть вынужденным сделать что-то
+may,meɪ,иметь разрешение сделать что-то
+must,məst,быть обязанным сделать что-то
+should,ʃəd,рекомендация или пожелание сделать что-то
+yes,jes,да
+no,nəʊ,нет
+not,nɒt,не
+hi,haɪ,привет
+hello,həˈləʊ,здравствуйте
+sorry,ˈsɒrɪ,извините/простите
+excuse me,ɪkˈskjuːz|miː,извините/разрешите
+please,pliːz,пожалуйста
+thank you,θæŋk/jə,спасибо
+you are welcome,ju/ɑː/ˈwelkəm,не за что
+bye,baɪ,пока
+maybe,ˈmeɪbiː,может быть
+also,ˈɔːlsəʊ,также
+and,ənd,и
+because,bɪˈkəz,потому что
+because of,bɪˈkəz,из-за
+unless,ʌnˈles,если только не
+however,haʊˈevə,тем не менее
+although,ɔːlˈðəʊ,хотя
+but,bət,но
+neither … nor,ˈnaɪðə,ни… ни
+if,ɪf,если
+since,sɪns,раз уж/поскольку/так как
+or,ɔː,или
+so,səʊ,итак/таким образом/поэтому
+what,wɒt,что/какой
+who,huː,кто
+whom,huːm,кому
+when,wen,когда
+where,weə,где/куда
+how,haʊ,как/каким образом
+why,waɪ,почему/зачем
+left,left,левый/налево
+right,raɪt,правый/направо
+here,hɪə,тут/сюда
+there,ðə(r),там/туда
+down,daʊn,вниз
+up,ʌp,вверх
+about,əˈbaʊt,о/около/примерно
+above,əˈbʌv,над
+against,əˈɡenst,против
+behind,bɪˈhaɪnd,сзади/позади
+between,bɪˈtwiːn,между
+from,frəm,из
+in,ɪn,в
+in front of,frʌnt,впереди
+on,ɒn,на
+through,θruː,через/сквозь
+to,tə,по направлению к
+under,ˈʌndə,под
+with,wɪð,с
+without,wɪðˈaʊt,без
