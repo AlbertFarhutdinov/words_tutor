@@ -24,3 +24,8 @@ TRANSCRIPTION = 'transcription'
 TRANSLATION = 'translation'
 SUCCESS_NUMBER = 'success_number'
 LEARNING_DATE = 'learning_date'
+
+EN = 'english'
+RU = 'russian'
+PL = 'polish'
+FR = 'french'
