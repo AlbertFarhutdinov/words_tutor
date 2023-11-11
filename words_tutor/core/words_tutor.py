@@ -64,11 +64,11 @@ class WordsTutor:
         """
         self.filename = filename
         self.max_success_number = max_success_number
-        self.vocabulary_frame = (
-            pd.read_csv(filename, sep=';')
-            if filename
-            else pd.DataFrame()
-        )
+        if filename:
+            self.vocabulary_frame = pd.read_csv(filename, sep=';')
+        else:
+            self.vocabulary_frame = pd.DataFrame()
+
         self.vocabulary = self.vocabulary_frame.to_dict(orient='records')
 
     @property

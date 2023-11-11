@@ -6,9 +6,6 @@ import sys
 
 from words_tutor.core import WordsTutor
 
-# TODO: add mode 'rus -> eng'
-# TODO: add processing of words in parenthesis, other forms etc.
-
 
 sys.tracebacklimit = 0
 
@@ -25,7 +22,7 @@ def main() -> None:
         sys.exit(1)
 
     if command == 'help':
-        WordsTutor().help()
+        help(WordsTutor())
     else:
         try:
             filename = sys.argv[2]

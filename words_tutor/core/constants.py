@@ -18,6 +18,7 @@ LEARNING_DATE
 """
 
 
+DEFAULT_STRING = ''
 COMING_BACK_TIME = 90
 WORD = 'word'
 TRANSCRIPTION = 'transcription'
@@ -29,3 +30,5 @@ EN = 'english'
 RU = 'russian'
 PL = 'polish'
 FR = 'french'
+
+LANGUAGES = [EN, RU, PL, FR]
