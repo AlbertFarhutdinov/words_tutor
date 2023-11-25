@@ -27,8 +27,10 @@ SUCCESS_NUMBER = 'success_number'
 LEARNING_DATE = 'learning_date'
 
 EN = 'english'
+AZ = 'azerbaijani'
 RU = 'russian'
 PL = 'polish'
 FR = 'french'
+TR = 'tatar'
 
-LANGUAGES = [EN, RU, PL, FR]
+LANGUAGES = [EN, RU, PL, FR, AZ, TR]

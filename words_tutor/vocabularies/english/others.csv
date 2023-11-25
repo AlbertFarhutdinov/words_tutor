@@ -1,0 +1,83 @@
+word,part_of_speech,speaking,writing,pronunciation,pronunciation_us,pronunciation_uk
+a,determiner,S1,W1,eɪ (strong)/ə (weak),,
+a,indefinite article,S1,W1,eɪ (strong)/ə (weak),,
+all,determiner,S1,W1,ɔːl,,
+all,predeterminer,S1,W1,ɔːl,,
+all right,interjection,S1,W2,,,
+an,determiner,S1,W1,,ən,æn
+an,indefinite article,S1,W1,,ən,æn
+another,determiner,S1,W1,,əˈnʌðər,əˈnʌðə
+any,determiner,S1,W1,ˈenɪ,,
+be,auxiliary,S1,W1,biː (strong)/bɪ (weak),,
+both,determiner,S1,W1,bəʊθ,,
+both,predeterminer,S1,W1,bəʊθ,,
+bye,interjection,S1,,baɪ,,
+can,modal,S1,W1,kæn (strong)/kən (weak),,
+could,modal,S1,W1,kʊd (strong)/kəd (weak),,
+dear,interjection,S1,,,dɪr,dɪə
+do,auxiliary,S1,W1,duː,,
+each,determiner,S1,W1,iːtʃ,,
+either,determiner,S1,W1,,ˈiːðər,ˈaɪðə
+enough,determiner,S1,W2,ɪˈnʌf,,
+every,determiner,S1,W1,ˈevrɪ,,
+few,determiner,S1,W1,fjuː,,
+good morning,interjection,S2,,,,
+good night,interjection,S3,,,,
+goodbye,interjection,S3,,,ˌɡʊdˈbaɪ,ɡʊdˈbaɪ
+gosh,interjection,S2,,,ɡɑːʃ,ɡɒʃ
+half,predeterminer,S1,W1,,hæf,hɑːf
+hello,interjection,S1,,həˈləʊ,,
+her,determiner,S1,W1,,hɜːr (strong)/hər (weak),hɜː(r) (strong)/hə(r) (weak)
+hi,interjection,S1,,haɪ,,
+his,determiner,S1,W1,hɪz,,
+its,determiner,S1,W1,ɪts,,
+last,determiner,S1,W1,,læst,lɑːst
+least,determiner,S1,W1,liːst,,
+less,determiner,S1,W1,les,,
+little,determiner,S1,W1,,ˈlɪtl,ˈlɪt(ə)l
+many,determiner,S1,W1,ˈmenɪ,,
+may,modal,S1,W1,meɪ,,
+might,modal,S1,W1,maɪt,,
+more,determiner,S1,W1,,mɔːr,mɔː
+most,determiner,S1,W1,məʊst,,
+much,determiner,S1,W1,mʌtʃ,,
+must,modal,S1,W1,mʌst (strong)/məst (weak),,
+my,determiner,S1,W1,maɪ,,
+neither,determiner,,W3,,nɪːðə(r),ˈnaɪðə
+next,determiner,S1,W1,nekst,,
+no,determiner,S1,W1,nəʊ,,
+OK,interjection,S1,,,əʊˈkeɪ,ˌəʊˈkeɪ
+one,determiner,S1,W1,wʌn,,
+other,determiner,S1,W1,,ˈʌðər,ˈʌðə
+ought to,modal,S1,W1,,,
+our,determiner,S1,W1,,ˈaʊər,ˈaʊə
+pardon,interjection,S2,,,ˈpɑːrdn,ˈpɑːd(ə)n
+please,interjection,S1,W2,pliːz,,
+quite,predeterminer,S1,W1,kwaɪt,,
+rather,predeterminer,S1,W1,,ˈræðər,ˈrɑːðə
+right,interjection,S2,,raɪt,,
+several,determiner,S1,W1,,ˈsevrəl,ˈsev(ə)r(ə)l
+shall,modal,S1,W1,ʃæl (strong)/ʃəl (weak),,
+should,modal,S1,W1,ʃʊd (strong)/ʃəd (weak),,
+some,determiner,S1,W1,sʌm (strong)/səm (weak),,
+such,determiner,S1,W1,sʌtʃ,,
+such,predeterminer,S1,W1,sʌtʃ,,
+thanks,interjection,S1,,θæŋks,,
+that,determiner,S1,W1,ðæt,,
+the,definite article,S1,W1,ðiː (strong)/ðə (weak),,
+the,determiner,S1,W1,ðiː (strong)/ðə (weak),,
+their,determiner,S1,W1,,ðer,ðeə
+this,determiner,S1,W1,ðɪs,,
+to,,S1,W1,tuː (strong)/tə (weak),,
+twice,predeterminer,S2,W2,twaɪs,,
+used to,modal,S1,W2,,,
+well,interjection,S1,W1,wel,,
+what,determiner,S1,W1,,wʌt,wɒt
+what,predeterminer,S1,W1,,wʌt,wɒt
+whatever,determiner,S1,W1,,wətˈevər,wɒtˈevə
+which,determiner,S1,W1,wɪtʃ,,
+whose,determiner,S2,W1,huːz,,
+will,modal,S1,W1,wɪl,,
+would,modal,S1,W1,wʊd (strong)/wəd (weak),,
+yep,interjection,S1,,jep,,
+your,determiner,S1,W1,,jʊr (strong)/jər (weak),jɔː(r) (strong)/jə(r) (weak)
