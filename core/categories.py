@@ -1,9 +1,15 @@
-from enum import StrEnum
+from enum import IntEnum, StrEnum
 
 
-class GrammaticalNumber(StrEnum):
+class Number(StrEnum):
     SINGULAR = 'singular'
     PLURAL = 'plural'
+
+
+class Person(IntEnum):
+    ONE = 1
+    TWO = 2
+    THREE = 3
 
 
 class Tense(StrEnum):
