@@ -3,9 +3,9 @@ from datetime import date
 from random import randint
 from time import sleep
 
-import constants as con
+import core.constants as con
 import pandas as pd
-from answer_processor import AnswerProcessor
+from words_tutor.answer_processor import AnswerProcessor
 from wt_item import WTItem
 
 

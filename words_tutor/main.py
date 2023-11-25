@@ -4,7 +4,7 @@ import logging
 import os
 import sys
 
-from words_tutor.core import WordsTutor
+from words_tutor.words_tutor import WordsTutor
 
 
 sys.tracebacklimit = 0
