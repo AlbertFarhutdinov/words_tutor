@@ -1,18 +1,9 @@
-HARD = 'hard'
-SOFT = 'soft'
+from enum import StrEnum
 
-VOICED = 'voiced'
-VOICELESS = 'voiceless'
+from core.categories import Hardness, Number, Sonority, Tense
 
 NASAL = 'nasal'
 NON_NASAL = 'non_nasal'
-
-SINGULAR = 'singular'
-PLURAL = 'plural'
-
-PRESENT = 'present'
-PAST = 'past'
-FUTURE = 'future'
 
 VOWEL = 'vowel'
 CONSONANT = 'consonant'
@@ -39,7 +30,6 @@ U_LOWER = '\N{CYRILLIC SMALL LETTER STRAIGHT U}'
 H_LOWER = '\N{CYRILLIC SMALL LETTER SHHA}'
 
 
-
 CONSONANTS = {
     'б', 'в', 'г', 'д', 'ж', G_LOWER, 
     'з', 'й', 'к', 'л', 'м', 'н', N_LOWER,
@@ -53,8 +43,8 @@ VOWELS = {
     U_LOWER, 'ы', 'э', 'ю', 'я',
 }
 
-HARD_VOWELS = {'а', 'о', 'у', 'ы', 'э'}
-SOFT_VOWELS = {A_LOWER, 'е', 'ё', 'и', O_LOWER, U_LOWER, 'ю', 'я'}
+Hardness.HARD_VOWELS = {'а', 'о', 'у', 'ы', 'э'}
+Hardness.SOFT_VOWELS = {A_LOWER, 'е', 'ё', 'и', O_LOWER, U_LOWER, 'ю', 'я'}
 NASAL_CONSONANTS = {'м', 'н', N_LOWER}
 VOICED_CONSONANTS = {
     'б', 'в', 'г', 'д', 'ж', G_LOWER, 
@@ -67,186 +57,179 @@ VOICELESS_CONSONANTS = {
 }
 
 
-
 PRONOUNS_NOMINATIVE = {
-    (1, SINGULAR): 'мин',
-    (2, SINGULAR): 'cин',
-    (3, SINGULAR): 'ул',
-    (1, PLURAL): 'без',
-    (2, PLURAL): 'сез',
-    (3, PLURAL): 'алар',
+    (1, Number.SINGULAR): 'мин',
+    (2, Number.SINGULAR): 'cин',
+    (3, Number.SINGULAR): 'ул',
+    (1, Number.PLURAL): 'без',
+    (2, Number.PLURAL): 'сез',
+    (3, Number.PLURAL): 'алар',
 }
 PRONOUNS_ACCUSATIVE = {
-    (1, SINGULAR): 'мине',
-    (2, SINGULAR): 'cине',
-    (3, SINGULAR): f'а{N_LOWER}ы',
-    (1, PLURAL): 'безне',
-    (2, PLURAL): 'сезне',
-    (3, PLURAL): 'аларны',
+    (1, Number.SINGULAR): 'мине',
+    (2, Number.SINGULAR): 'cине',
+    (3, Number.SINGULAR): f'а{N_LOWER}ы',
+    (1, Number.PLURAL): 'безне',
+    (2, Number.PLURAL): 'сезне',
+    (3, Number.PLURAL): 'аларны',
 }
 PRONOUNS_DATIVE = {
-    (1, SINGULAR): f'ми{N_LOWER}a',
-    (2, SINGULAR): f'cи{N_LOWER}а',
-    (3, SINGULAR): f'а{N_LOWER}а',
-    (1, PLURAL): f'безг{A_LOWER}',
-    (2, PLURAL): f'сезг{A_LOWER}',
-    (3, PLURAL): 'аларга',
+    (1, Number.SINGULAR): f'ми{N_LOWER}a',
+    (2, Number.SINGULAR): f'cи{N_LOWER}а',
+    (3, Number.SINGULAR): f'а{N_LOWER}а',
+    (1, Number.PLURAL): f'безг{A_LOWER}',
+    (2, Number.PLURAL): f'сезг{A_LOWER}',
+    (3, Number.PLURAL): 'аларга',
 }
 
 
-
-vowel_alternations = [
-    {HARD: 'а', SOFT: A_LOWER},
-    {HARD: 'ы', SOFT: 'e'},
-    {HARD: 'ый', SOFT: 'и'},
-]
-consonant_alternations = [
-    {VOICED: 'г', VOICELESS: 'к'},
-    {VOICED: 'д', VOICELESS: 'т'},
-]
+class SoftVowel(StrEnum):
+    A = A_LOWER
+    E = 'e'
+    Y = 'и'
 
 
-VERB_INFINITIVE_POSTFIXES = {
-    CONSONANT: {
-        HARD: 'ырга',
-        SOFT: f'ерг{A_LOWER}',
-    },
-    VOWEL: {
-        HARD: 'арга',
-        SOFT: f'{A_LOWER}рг{A_LOWER}',
-    }
-}
+class HardVowel(StrEnum):
+    A = 'а'
+    E = 'ы'
+    Y = 'ый'
 
 
-VERB_POSSESIVE_PRESENT_POSTFIXES = {
-    HARD: {
-        (1, SINGULAR): 'м',
-        (2, SINGULAR): f'сы{N_LOWER}',
-        (3, SINGULAR): '',
-        (1, PLURAL): 'быз',
-        (2, PLURAL): 'сыз',
-        (3, PLURAL): 'лар',
-    },
-    SOFT: {
-        (1, SINGULAR): 'м',
-        (2, SINGULAR): f'се{N_LOWER}',
-        (3, SINGULAR): '',
-        (1, PLURAL): 'без',
-        (2, PLURAL): 'сез',
-        (3, PLURAL): f'л{A_LOWER}р',
-    },
-}
-
-VERB_AFFIRMATIVE_PRESENT_POSTFIXES = {
-    CONSONANT: {
-        HARD: 'a',
-        SOFT: A_LOWER,
-    },
-    VOWEL: {
-        HARD: 'ый',
-        SOFT: 'и',
-    }
-}
+class VoicedConsonant(StrEnum):
+    G = 'г'
+    D = 'д'
 
 
-VERB_NEGATIVE_PRESENT_POSTFIXES = {
-    HARD: 'мый',
-    SOFT: 'ми',
-}
-
-
-VERB_QUESTION_POSTFIXES = {
-    HARD: 'мы',
-    SOFT: 'ме',
-}
-
-
-VERB_PAST_POSTFIXES = {
-    HARD: {VOICED: 'ды', VOICELESS: 'ты'},
-    SOFT: {VOICED: 'де', VOICELESS: 'те'},
-}
-
-
-VERB_POSSESIVE_PAST_POSTFIXES = {
-    HARD: {
-        (1, SINGULAR): 'м',
-        (2, SINGULAR): N_LOWER,
-        (3, SINGULAR): '',
-        (1, PLURAL): 'к',
-        (2, PLURAL): 'гыз',
-        (3, PLURAL): 'лар',
-    },
-    SOFT: {
-        (1, SINGULAR): 'м',
-        (2, SINGULAR): N_LOWER,
-        (3, SINGULAR): '',
-        (1, PLURAL): 'к',
-        (2, PLURAL): 'гез',
-        (3, PLURAL): f'л{A_LOWER}р',
-    },
-}
-
-
-VERB_NEGATIVE_PAST_POSTFIXES = {
-    HARD: 'ма',
-    SOFT: f'м{A_LOWER}',
-}
-
+class VoicelessConsonant(StrEnum):
+    G = 'к'
+    D = 'т'
 
 
 NOUN_ACCUSATIVE_POSTFIXES = {
-    HARD: 'ны',
-    SOFT: 'не',
+    Hardness.HARD: 'ны',
+    Hardness.SOFT: 'не',
 }
 
-VERB_AFFIRMATIVE_FUTURE_POSTFIXES = {
+VERB_INFINITIVE_POSTFIXES = {
     CONSONANT: {
-        HARD: 'ыр',
-        SOFT: 'ер',
+        Hardness.HARD: 'ырга',
+        Hardness.SOFT: f'ерг{A_LOWER}',
     },
     VOWEL: {
-        HARD: 'р',
-        SOFT: 'р',
+        Hardness.HARD: 'арга',
+        Hardness.SOFT: f'{A_LOWER}рг{A_LOWER}',
     }
 }
 
-
-VERB_POSSESIVE_FUTURE_POSTFIXES = {
-    HARD: {
-        (1, SINGULAR): 'мын',
-        (2, SINGULAR): f'сы{N_LOWER}',
-        (3, SINGULAR): '',
-        (1, PLURAL): 'быз',
-        (2, PLURAL): 'сыз',
-        (3, PLURAL): 'лар',
+VERB_POSSESSIVE_POSTFIXES = {
+    Tense.PAST: {
+        Hardness.HARD: {
+            (1, Number.SINGULAR): 'м',
+            (2, Number.SINGULAR): N_LOWER,
+            (3, Number.SINGULAR): '',
+            (1, Number.PLURAL): 'к',
+            (2, Number.PLURAL): 'гыз',
+            (3, Number.PLURAL): 'лар',
+        },
+        Hardness.SOFT: {
+            (1, Number.SINGULAR): 'м',
+            (2, Number.SINGULAR): N_LOWER,
+            (3, Number.SINGULAR): '',
+            (1, Number.PLURAL): 'к',
+            (2, Number.PLURAL): 'гез',
+            (3, Number.PLURAL): f'л{A_LOWER}р',
+        },
     },
-    SOFT: {
-        (1, SINGULAR): 'мен',
-        (2, SINGULAR): f'се{N_LOWER}',
-        (3, SINGULAR): '',
-        (1, PLURAL): 'без',
-        (2, PLURAL): 'сез',
-        (3, PLURAL): f'л{A_LOWER}р',
+    Tense.PRESENT: {
+        Hardness.HARD: {
+            (1, Number.SINGULAR): 'м',
+            (2, Number.SINGULAR): f'сы{N_LOWER}',
+            (3, Number.SINGULAR): '',
+            (1, Number.PLURAL): 'быз',
+            (2, Number.PLURAL): 'сыз',
+            (3, Number.PLURAL): 'лар',
+        },
+        Hardness.SOFT: {
+            (1, Number.SINGULAR): 'м',
+            (2, Number.SINGULAR): f'се{N_LOWER}',
+            (3, Number.SINGULAR): '',
+            (1, Number.PLURAL): 'без',
+            (2, Number.PLURAL): 'сез',
+            (3, Number.PLURAL): f'л{A_LOWER}р',
+        },
+    },
+    Tense.FUTURE: {
+        Hardness.HARD: {
+            (1, Number.SINGULAR): 'мын',
+            (2, Number.SINGULAR): f'сы{N_LOWER}',
+            (3, Number.SINGULAR): '',
+            (1, Number.PLURAL): 'быз',
+            (2, Number.PLURAL): 'сыз',
+            (3, Number.PLURAL): 'лар',
+        },
+        Hardness.SOFT: {
+            (1, Number.SINGULAR): 'мен',
+            (2, Number.SINGULAR): f'се{N_LOWER}',
+            (3, Number.SINGULAR): '',
+            (1, Number.PLURAL): 'без',
+            (2, Number.PLURAL): 'сез',
+            (3, Number.PLURAL): f'л{A_LOWER}р',
+        },
+    }
+}
+VERB_AFFIRMATIVE_POSTFIXES = {
+    Tense.PRESENT: {
+        CONSONANT: {
+            Hardness.HARD: 'a',
+            Hardness.SOFT: A_LOWER,
+        },
+        VOWEL: {
+            Hardness.HARD: 'ый',
+            Hardness.SOFT: 'и',
+        }
+    },
+    Tense.FUTURE: {
+        CONSONANT: {
+            Hardness.HARD: 'ыр',
+            Hardness.SOFT: 'ер',
+        },
+        VOWEL: {
+            Hardness.HARD: 'р',
+            Hardness.SOFT: 'р',
+        }
     },
 }
 
+VERB_NEGATIVE_PRESENT_POSTFIXES = {
+    Hardness.HARD: 'мый',
+    Hardness.SOFT: 'ми',
+}
+VERB_NEGATIVE_PAST_POSTFIXES = {
+    Hardness.HARD: 'ма',
+    Hardness.SOFT: f'м{A_LOWER}',
+}
+
+VERB_PAST_POSTFIXES = {
+    Hardness.HARD: {Sonority.VOICED: 'ды', Sonority.VOICELESS: 'ты'},
+    Hardness.SOFT: {Sonority.VOICED: 'де', Sonority.VOICELESS: 'те'},
+}
 
 VERB_NEGATIVE_FUTURE_POSTFIXES = {
-    HARD: {
-        (1, SINGULAR): 'мам',
-        (2, SINGULAR): f'массы{N_LOWER}',
-        (3, SINGULAR): 'мас',
-        (1, PLURAL): 'мабыз',
-        (2, PLURAL): 'массыз',
-        (3, PLURAL): 'маслар',
+    Hardness.HARD: {
+        (1, Number.SINGULAR): 'мам',
+        (2, Number.SINGULAR): f'массы{N_LOWER}',
+        (3, Number.SINGULAR): 'мас',
+        (1, Number.PLURAL): 'мабыз',
+        (2, Number.PLURAL): 'массыз',
+        (3, Number.PLURAL): 'маслар',
     },
-    SOFT: {
-        (1, SINGULAR): f'м{A_LOWER}м',
-        (2, SINGULAR): f'м{A_LOWER}ссе{N_LOWER}',
-        (3, SINGULAR): f'м{A_LOWER}с',
-        (1, PLURAL): f'м{A_LOWER}без',
-        (2, PLURAL): f'м{A_LOWER}ссез',
-        (3, PLURAL): f'м{A_LOWER}сл{A_LOWER}р',
+    Hardness.SOFT: {
+        (1, Number.SINGULAR): f'м{A_LOWER}м',
+        (2, Number.SINGULAR): f'м{A_LOWER}ссе{N_LOWER}',
+        (3, Number.SINGULAR): f'м{A_LOWER}с',
+        (1, Number.PLURAL): f'м{A_LOWER}без',
+        (2, Number.PLURAL): f'м{A_LOWER}ссез',
+        (3, Number.PLURAL): f'м{A_LOWER}сл{A_LOWER}р',
     },
 }
 
@@ -255,21 +238,28 @@ class TatarVerb:
 
     def __init__(self, imperative: str) -> None:
         self.imperative = imperative
-        self.is_hard = self.check_hardness()
-        self.is_hard = self.check_hardness()
+        self.is_hardness = self._check_hardness()
+        self.last_letter_type = self._get_last_letter_type()
+        self.vowel = HardVowel if self.is_hardness else SoftVowel
 
-    def check_hardness(self) -> bool:
+    def conjugate(self):
+        pass
+
+    def _check_hardness(self) -> bool:
         hard_vowels, soft_vowels = 0, 0
         for letter in self.imperative:
-            if letter.lower() in HARD_VOWELS:
+            if letter.lower() in Hardness.HARD_VOWELS:
                 hard_vowels += 1
-            if letter.lower() in SOFT_VOWELS:
+            if letter.lower() in Hardness.SOFT_VOWELS:
                 soft_vowels += 1
         return hard_vowels >= soft_vowels
 
-    def get_last_letter_type(self) -> bool:
+    def _get_last_letter_type(self) -> str:
         if self.imperative[-1] in VOICED_CONSONANTS:
-            return VOICED
+            return Sonority.VOICED
         if self.imperative[-1] in VOICELESS_CONSONANTS:
-            return VOICELESS
+            return Sonority.VOICELESS
         return VOWEL
+
+    def _get_question_present(self):
+        return f'м{self.vowel.E}'

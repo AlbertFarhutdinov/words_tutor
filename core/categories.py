@@ -16,3 +16,17 @@ class Tense(StrEnum):
     PAST = 'past'
     PRESENT = 'present'
     FUTURE = 'future'
+
+
+class Hardness(StrEnum):
+    HARD = 'hard'
+    SOFT = 'soft'
+
+
+class Sonority(StrEnum):
+    VOICED = 'voiced'
+    VOICELESS = 'voiceless'
+
+
+if __name__ == '__main__':
+    print(repr(Number.SINGULAR))
