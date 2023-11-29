@@ -1,6 +1,6 @@
 from enum import StrEnum
 
-from core.categories import Hardness, Number, Sonority, Tense
+from core.categories import Hardness, Number, Person, Sonority, Tense
 
 NASAL = 'nasal'
 NON_NASAL = 'non_nasal'
@@ -110,73 +110,7 @@ NOUN_ACCUSATIVE_POSTFIXES = {
     Hardness.SOFT: 'не',
 }
 
-VERB_INFINITIVE_POSTFIXES = {
-    CONSONANT: {
-        Hardness.HARD: 'ырга',
-        Hardness.SOFT: f'ерг{A_LOWER}',
-    },
-    VOWEL: {
-        Hardness.HARD: 'арга',
-        Hardness.SOFT: f'{A_LOWER}рг{A_LOWER}',
-    }
-}
 
-VERB_POSSESSIVE_POSTFIXES = {
-    Tense.PAST: {
-        Hardness.HARD: {
-            (1, Number.SINGULAR): 'м',
-            (2, Number.SINGULAR): N_LOWER,
-            (3, Number.SINGULAR): '',
-            (1, Number.PLURAL): 'к',
-            (2, Number.PLURAL): 'гыз',
-            (3, Number.PLURAL): 'лар',
-        },
-        Hardness.SOFT: {
-            (1, Number.SINGULAR): 'м',
-            (2, Number.SINGULAR): N_LOWER,
-            (3, Number.SINGULAR): '',
-            (1, Number.PLURAL): 'к',
-            (2, Number.PLURAL): 'гез',
-            (3, Number.PLURAL): f'л{A_LOWER}р',
-        },
-    },
-    Tense.PRESENT: {
-        Hardness.HARD: {
-            (1, Number.SINGULAR): 'м',
-            (2, Number.SINGULAR): f'сы{N_LOWER}',
-            (3, Number.SINGULAR): '',
-            (1, Number.PLURAL): 'быз',
-            (2, Number.PLURAL): 'сыз',
-            (3, Number.PLURAL): 'лар',
-        },
-        Hardness.SOFT: {
-            (1, Number.SINGULAR): 'м',
-            (2, Number.SINGULAR): f'се{N_LOWER}',
-            (3, Number.SINGULAR): '',
-            (1, Number.PLURAL): 'без',
-            (2, Number.PLURAL): 'сез',
-            (3, Number.PLURAL): f'л{A_LOWER}р',
-        },
-    },
-    Tense.FUTURE: {
-        Hardness.HARD: {
-            (1, Number.SINGULAR): 'мын',
-            (2, Number.SINGULAR): f'сы{N_LOWER}',
-            (3, Number.SINGULAR): '',
-            (1, Number.PLURAL): 'быз',
-            (2, Number.PLURAL): 'сыз',
-            (3, Number.PLURAL): 'лар',
-        },
-        Hardness.SOFT: {
-            (1, Number.SINGULAR): 'мен',
-            (2, Number.SINGULAR): f'се{N_LOWER}',
-            (3, Number.SINGULAR): '',
-            (1, Number.PLURAL): 'без',
-            (2, Number.PLURAL): 'сез',
-            (3, Number.PLURAL): f'л{A_LOWER}р',
-        },
-    }
-}
 VERB_AFFIRMATIVE_POSTFIXES = {
     Tense.PRESENT: {
         CONSONANT: {
@@ -197,39 +131,6 @@ VERB_AFFIRMATIVE_POSTFIXES = {
             Hardness.HARD: 'р',
             Hardness.SOFT: 'р',
         }
-    },
-}
-
-VERB_NEGATIVE_PRESENT_POSTFIXES = {
-    Hardness.HARD: 'мый',
-    Hardness.SOFT: 'ми',
-}
-VERB_NEGATIVE_PAST_POSTFIXES = {
-    Hardness.HARD: 'ма',
-    Hardness.SOFT: f'м{A_LOWER}',
-}
-
-VERB_PAST_POSTFIXES = {
-    Hardness.HARD: {Sonority.VOICED: 'ды', Sonority.VOICELESS: 'ты'},
-    Hardness.SOFT: {Sonority.VOICED: 'де', Sonority.VOICELESS: 'те'},
-}
-
-VERB_NEGATIVE_FUTURE_POSTFIXES = {
-    Hardness.HARD: {
-        (1, Number.SINGULAR): 'мам',
-        (2, Number.SINGULAR): f'массы{N_LOWER}',
-        (3, Number.SINGULAR): 'мас',
-        (1, Number.PLURAL): 'мабыз',
-        (2, Number.PLURAL): 'массыз',
-        (3, Number.PLURAL): 'маслар',
-    },
-    Hardness.SOFT: {
-        (1, Number.SINGULAR): f'м{A_LOWER}м',
-        (2, Number.SINGULAR): f'м{A_LOWER}ссе{N_LOWER}',
-        (3, Number.SINGULAR): f'м{A_LOWER}с',
-        (1, Number.PLURAL): f'м{A_LOWER}без',
-        (2, Number.PLURAL): f'м{A_LOWER}ссез',
-        (3, Number.PLURAL): f'м{A_LOWER}сл{A_LOWER}р',
     },
 }
 
@@ -261,5 +162,48 @@ class TatarVerb:
             return Sonority.VOICELESS
         return VOWEL
 
+    def _get_infinitive_postfix(self):
+        if self.imperative[-1] in VOWELS:
+            return f'{self.vowel.A}рг{self.vowel.A}'
+        return f'{self.vowel.E}рг{self.vowel.A}'
+
     def _get_question_present(self):
         return f'м{self.vowel.E}'
+
+    def _get_negative_postfix(self, tense: Tense):
+        if tense == tense.PRESENT:
+            return f'м{self.vowel.Y}'
+        return f'м{self.vowel.A}'
+
+    def _get_past_postfix(self):
+        if self.last_letter_type == Sonority.VOICELESS:
+            return f'т{self.vowel.E}'
+        return f'д{self.vowel.E}'
+
+    def _get_possessive_postfix(
+        self,
+        person: Person,
+        number: Number,
+        tense: Tense,
+        is_negative: bool
+    ):
+        if person == Person.ONE:
+            if number == Number.SINGULAR:
+                postfix = 'м'
+                if tense == tense.FUTURE and not is_negative:
+                    postfix += f'{self.vowel.E}н'
+            else:
+                postfix = 'к' if tense == tense.PAST else f'б{self.vowel.E}з'
+        elif person == Person.TWO:
+            postfix = N_LOWER if number == Number.SINGULAR else 'з'
+            if tense == tense.PAST:
+                postfix = f'г{self.vowel.E}' + postfix
+            else:
+                postfix = f'с{self.vowel.E}' + postfix
+            if tense == tense.FUTURE and is_negative:
+                postfix = 'с' + postfix
+        else:
+            postfix = '' if number == Number.SINGULAR else f'л{self.vowel.A}р'
+            if tense == tense.FUTURE and is_negative:
+                postfix = 'с' + postfix
+        return postfix
